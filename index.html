@@ -1,0 +1,460 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080506">
+  <meta name="description" content="AKENZO: tecnología para tu crecimiento. Diseño web, marketing, consultoría e inteligencia artificial para empresas colombianas.">
+  <title>AKENZO — Tecnología para tu crecimiento</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Noto+Serif+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/intro.js" defer></script>
+  <script src="js/servicios.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/anime-effects.js" defer></script>
+</head>
+
+<body class="akenzo-anime">
+
+  <div class="sakura-layer" id="sakura-layer" aria-hidden="true"></div>
+
+  <!-- INTRODUCCIÓN -->
+  <section class="intro-video" id="intro-video">
+    <video id="akenzo-intro" autoplay muted playsinline preload="auto">
+      <source src="videos/video akenzo.mp4" type="video/mp4">
+      Tu navegador no puede reproducir este video.
+    </video>
+
+    <div class="intro-overlay">
+      <img src="imagenes/logo akenzo.png" alt="AKENZO" class="intro-logo-image">
+      <p>ESTRATEGIA · INNOVACIÓN · RESULTADOS</p>
+      <p class="intro-tagline">Tecnología para tu crecimiento.</p>
+      <button id="skip-intro" type="button">Entrar a AKENZO ↗</button>
+    </div>
+  </section>
+
+  <div class="page-shell" id="inicio">
+
+    <!-- ENCABEZADO -->
+    <header class="topbar">
+      <a class="brand" href="#inicio" aria-label="AKENZO, inicio">
+        <img src="imagenes/logo akenzo.png" alt="AKENZO" class="brand-logo-image">
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#diagnosis-section">Diagnóstico</a>
+        <a href="#filosofia">Quiénes somos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <a class="header-cta" href="#diagnosis-section">
+        Diagnosticar mi empresa ↗
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" type="button"
+        aria-label="Abrir menú" aria-controls="main-nav" aria-expanded="false">
+        ☰
+      </button>
+    </header>
+
+    <main>
+
+      <!-- PORTADA -->
+      <section class="hero" id="portada">
+        <div class="hero-copy">
+          <div class="eyebrow">ESTRATEGIA · INNOVACIÓN · CRECIMIENTO</div>
+          <p class="hero-tagline">Tecnología para tu crecimiento.</p>
+          <div class="hero-kicker">日 UNA NUEVA VISIÓN PARA TU NEGOCIO</div>
+
+          <h1>
+            Tu empresa<br>
+            puede llegar<br>
+            <span class="title-accent">más lejos.</span>
+          </h1>
+
+          <p class="hero-description">
+            Convertimos desafíos en oportunidades. Fortalecemos tus procesos,
+            potenciamos tu marca e integramos tecnología para construir
+            el futuro que tu empresa merece.
+          </p>
+
+          <div class="hero-actions">
+            <a class="primary-button" href="#diagnosis-section">
+              Diagnosticar mi empresa ↗
+            </a>
+            <a class="secondary-button" href="#servicios">
+              Explorar servicios ↓
+            </a>
+          </div>
+
+          <div class="hero-footnote">
+            01 — Tu siguiente nivel comienza con una decisión.
+          </div>
+        </div>
+
+        <div class="hero-art hero-video" aria-label="Video de presentación de AKENZO">
+          <video class="hero-background-video" autoplay muted loop playsinline preload="metadata">
+            <source src="videos/akenzo inicio.mp4" type="video/mp4">
+          </video>
+          <div class="hero-video-overlay"></div>
+          <div class="art-frame"></div>
+          <div class="art-caption">
+            <span>未来 · EL FUTURO</span>
+            <span>AK / 001</span>
+          </div>
+          <div class="art-vertical-text">未来を創る</div>
+          <div class="art-stamp">明<br>善</div>
+          <div class="art-bottom">
+            <span class="art-kanji">前進</span>
+            <span>EL FUTURO<br>COMIENZA HOY</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- MANIFIESTO -->
+      <section class="brand-manifesto" id="manifiesto">
+        <span class="manifesto-line"></span>
+        <p>TECNOLOGÍA PARA TU CRECIMIENTO.</p>
+        <span class="manifesto-japanese">成長 · Kaizen</span>
+        <span class="manifesto-line"></span>
+      </section>
+
+      <!-- SERVICIOS -->
+      <section class="services-section" id="servicios">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow">LO QUE HACEMOS</div>
+            <h2>Impulsa tu<br><span class="title-accent">siguiente nivel.</span></h2>
+            <p>Estrategia, creatividad y tecnología trabajando en la misma dirección.</p>
+            <a class="secondary-button" href="#diagnosis-section">
+              Conoce nuestros servicios ↗
+            </a>
+          </div>
+
+          <div class="services-strip">
+            <article class="service-item">
+              <span class="service-number">01 / 戦略</span>
+              <span class="service-icon" aria-hidden="true">◎</span>
+              <h3>Consultoría</h3>
+              <p>Decisiones estratégicas para crecer con claridad y propósito.</p>
+              <a href="#diagnosis-section" class="service-link">Explorar ↗</a>
+            </article>
+
+            <article class="service-item">
+              <span class="service-number">02 / 創造</span>
+              <span class="service-icon" aria-hidden="true">❀</span>
+              <h3>Marketing</h3>
+              <p>Posicionamiento, comunicación y experiencias para tu marca.</p>
+              <a href="#diagnosis-section" class="service-link">Explorar ↗</a>
+            </article>
+
+            <article class="service-item">
+              <span class="service-number">03 / 技術</span>
+              <span class="service-icon" aria-hidden="true">▦</span>
+              <h3>Tecnología e IA</h3>
+              <p>Herramientas inteligentes para optimizar procesos y oportunidades.</p>
+              <a href="#diagnosis-section" class="service-link">Explorar ↗</a>
+            </article>
+
+            <article class="service-item">
+              <span class="service-number">04 / 成長</span>
+              <span class="service-icon" aria-hidden="true">↗</span>
+              <h3>Capacitación</h3>
+              <p>Conocimiento práctico para fortalecer equipos y capacidades.</p>
+              <a href="#diagnosis-section" class="service-link">Explorar ↗</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- MENSAJE DE MARCA -->
+      <section class="statement-section">
+        <span class="statement-kanji">可能性</span>
+
+        <div class="statement-content">
+          <p class="statement-overline">NO SE TRATA SOLO DE CRECER</p>
+          <h2>Se trata de construir<br>algo <span class="title-accent">extraordinario.</span></h2>
+          <p>Cada gran cambio comienza al entender dónde estás y decidir hacia dónde quieres llegar.</p>
+        </div>
+
+        <div class="statement-scene">
+          <video class="statement-video" autoplay muted loop playsinline preload="metadata">
+            <source src="videos/logo%20rotativo.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <span class="statement-number">AK—01</span>
+      </section>
+
+      <!-- QUIÉNES SOMOS -->
+      <section class="about-section" id="filosofia" aria-labelledby="about-title">
+        <div class="about-topline">
+          <span class="about-index">AK / 2026</span>
+          <span class="about-japanese">信頼 · INNOVACIÓN</span>
+        </div>
+
+        <div class="about-layout">
+          <div class="about-heading">
+            <div class="eyebrow">NUESTRA HISTORIA</div>
+            <h2 id="about-title">Tecnología con<br><span class="title-accent">propósito.</span></h2>
+            <p class="about-lead">Tecnología para tu crecimiento.</p>
+            <span class="about-kanji" aria-hidden="true">成長</span>
+          </div>
+
+          <div class="about-copy">
+            <p class="about-intro">
+              AKENZO es una empresa tecnológica fundada a comienzos de 2026,
+              con la proyección de acompañar a pequeñas y medianas empresas de
+              Colombia en sus procesos de crecimiento y transformación digital.
+            </p>
+
+            <p>
+              Nacimos como una iniciativa de estudiantes universitarios que
+              creen en el potencial de la tecnología para resolver necesidades
+              reales. Queremos poner nuestros conocimientos, creatividad y
+              compromiso al servicio de las pymes y mipymes colombianas.
+            </p>
+
+            <p>
+              Desarrollamos soluciones digitales para fortalecer la presencia
+              de cada negocio, optimizar sus procesos y abrir nuevas
+              oportunidades. Desde el diseño y desarrollo web hasta el
+              marketing digital y las herramientas de inteligencia artificial,
+              buscamos crear soluciones adaptadas a los objetivos de cada empresa.
+            </p>
+
+            <p>
+              Queremos que cada experiencia digital que construimos transmita
+              seguridad, conocimiento y profesionalismo. Nuestra meta es
+              contribuir al desarrollo tecnológico de Colombia y ayudar a que
+              más empresas aprovechen las oportunidades del mundo digital.
+            </p>
+
+            <div class="about-principles">
+              <article class="about-principle">
+                <span>01 / CONFIANZA</span>
+                <h3>Seguridad en cada paso.</h3>
+                <p>Relaciones transparentes y experiencias digitales cuidadas.</p>
+              </article>
+              <article class="about-principle">
+                <span>02 / DESARROLLO</span>
+                <h3>Soluciones con propósito.</h3>
+                <p>Tecnología orientada a necesidades y objetivos reales.</p>
+              </article>
+              <article class="about-principle">
+                <span>03 / CRECIMIENTO</span>
+                <h3>Avanzar juntos.</h3>
+                <p>Acompañamos a los negocios en su evolución digital.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+
+   
+<!-- VIDEO PROMOCIONAL JUNTO A LOS PRINCIPIOS -->
+<div class="akenzo-promo-layout">
+  <div class="akenzo-promo-frame">
+    <video
+      class="akenzo-promo-video"
+      controls
+      playsinline
+      preload="metadata"
+    >
+      <source src="videos/akenzo%20promocional.mp4" type="video/mp4">
+      Tu navegador no puede reproducir este video.
+    </video>
+
+    <div class="akenzo-promo-footer">
+      <span>AKENZO®</span>
+      <span>NUESTRA VISIÓN</span>
+    </div>
+  </div>
+
+  <div class="akenzo-promo-copy">
+    <span class="akenzo-promo-eyebrow">CONOCE AKENZO</span>
+    <h2>Una visión.<br><span>Un futuro por construir.</span></h2>
+    <p>
+      Estrategia, creatividad y tecnología para impulsar
+      nuevas posibilidades para tu empresa.
+    </p>
+  </div>
+</div>
+
+
+        <div class="about-bottomline">
+          <span>MEJORA CONTINUA · VISIÓN SIN LÍMITES</span>
+          <span class="manifesto-japanese">改善 · Kaizen</span>
+        </div>
+      </section>
+
+      <!-- DIAGNÓSTICO Y CHAT -->
+      <section class="diagnosis-section" id="diagnosis-section">
+        <div class="diagnosis-heading">
+          <div class="eyebrow">EVALUACIÓN EMPRESARIAL</div>
+          <h2>Comencemos por<br><span class="title-accent">conocerte.</span></h2>
+          <p>
+            Conversemos sobre tu negocio para identificar oportunidades
+            y descubrir qué áreas puedes fortalecer.
+          </p>
+        </div>
+
+        <div class="chat-card">
+          <div class="chat-card-header">
+            <div class="assistant-avatar" aria-hidden="true">明<br>善</div>
+            <div class="assistant-details">
+              <strong>AKENZO Advisor</strong>
+              <span><span class="status-dot"></span>Asistente empresarial</span>
+            </div>
+            <span class="chat-label">DIAGNÓSTICO</span>
+          </div>
+
+          <div class="chat-messages" id="messages" role="log"
+            aria-live="polite" aria-relevant="additions">
+            <div class="welcome-message">
+              <span class="message-kicker">BIENVENIDO A AKENZO</span>
+              <p>
+                Hola. Te ayudaré a explorar las oportunidades de tu empresa
+                e identificar áreas que podrían fortalecerse.
+              </p>
+              <p>Para comenzar, ¿cómo se llama tu empresa?</p>
+            </div>
+          </div>
+
+          <form class="chat-form" id="chat-form" enctype="multipart/form-data">
+            <div class="chat-input-row">
+              <label for="file-input" class="attach-button"
+                title="Adjuntar archivos" aria-label="Adjuntar archivos">＋</label>
+
+              <input
+                id="file-input"
+                name="files"
+                type="file"
+                accept=".pdf,.txt,.csv,.json,.docx,.xlsx,.png,.jpg,.jpeg,.webp"
+                multiple
+                hidden
+              >
+
+              <input
+                id="user-input"
+                name="message"
+                type="text"
+                placeholder="Pregúntale algo a AKENZO..."
+                autocomplete="off"
+                maxlength="5000"
+                required
+              >
+
+              <button type="submit" aria-label="Enviar mensaje">↑</button>
+            </div>
+
+            <div id="selected-files" aria-live="polite"></div>
+
+            <details class="chat-link-details">
+              <summary>Añadir enlace web</summary>
+              <input
+                id="link-input"
+                name="url"
+                type="url"
+                placeholder="Pega aquí un enlace público (opcional)"
+              >
+            </details>
+          </form>
+
+          <div class="chat-privacy">
+            <button type="button" id="clear-chat" class="clear-chat-button">
+              Borrar mi conversación
+            </button>
+            <span>Evita compartir contraseñas o información financiera confidencial.</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACTO -->
+      <section class="contact-strip" id="contacto">
+        <div>
+          <div class="eyebrow">EL PRÓXIMO PASO</div>
+          <h2>Hagamos que las cosas<br><span class="title-accent">sucedan.</span></h2>
+        </div>
+
+        <p>
+          Cuéntanos qué quieres mejorar y exploremos cómo AKENZO
+          puede ayudarte a avanzar.
+        </p>
+
+        <a class="primary-button" href="#diagnosis-section">
+          Hablemos de tu empresa ↗
+        </a>
+      </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+      <a class="footer-brand" href="#inicio" aria-label="AKENZO, volver al inicio">
+        AKENZO<span>.</span>
+      </a>
+      <span class="footer-tagline">TECNOLOGÍA PARA TU CRECIMIENTO</span>
+      <span class="footer-japanese">改善 · Kaizen</span>
+      <a href="#inicio" class="back-to-top" aria-label="Volver al inicio">↑</a>
+    </footer>
+
+  </div>
+
+  <!-- MENÚ MÓVIL -->
+  <script>
+    (() => {
+      const toggle = document.getElementById("menu-toggle");
+      const nav = document.getElementById("main-nav");
+
+      if (!toggle || !nav) return;
+
+      toggle.addEventListener("click", () => {
+        const abierto = nav.classList.toggle("is-open");
+        toggle.setAttribute("aria-expanded", String(abierto));
+        toggle.setAttribute("aria-label", abierto ? "Cerrar menú" : "Abrir menú");
+      });
+
+      nav.querySelectorAll("a").forEach((enlace) => {
+        enlace.addEventListener("click", () => {
+          nav.classList.remove("is-open");
+          toggle.setAttribute("aria-expanded", "false");
+          toggle.setAttribute("aria-label", "Abrir menú");
+        });
+      });
+    })();
+  </script>
+
+  <!-- BOTÓN DE CONTACTO POR WHATSAPP -->
+  <a
+    class="akenzo-contacto-principal"
+    href="https://wa.me/573118413109?text=Hola%20AKENZO%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios."
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Contacta con nosotros por WhatsApp"
+  >
+    Contacta con nosotros
+  </a>
+
+  <!-- WHATSAPP FLOTANTE -->
+  <a
+    class="akenzo-whatsapp-flotante"
+    href="https://wa.me/573118413109?text=Hola%20AKENZO%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios."
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Escríbenos por WhatsApp"
+    title="Escríbenos por WhatsApp"
+  >
+    <svg viewBox="0 0 32 32" aria-hidden="true">
+      <path fill="currentColor" d="M16 .8A15.1 15.1 0 0 0 3.1 23.8L1 31l7.4-1.9A15.2 15.2 0 1 0 16 .8Zm0 27.5c-2.4 0-4.7-.7-6.7-2l-.5-.3-4.4 1.2 1.2-4.3-.3-.5A12.4 12.4 0 1 1 16 28.3Zm6.8-9.3c-.4-.2-2.1-1-2.5-1.1-.3-.1-.6-.2-.8.2-.3.4-1 1.2-1.2 1.4-.2.2-.4.3-.8.1-.4-.2-1.5-.6-2.9-1.8-1.1-1-1.8-2.1-2-2.5-.2-.4 0-.6.2-.8l.6-.7c.2-.2.3-.4.4-.6.1-.2 0-.5 0-.7l-1.1-2.6c-.3-.7-.6-.6-.8-.6h-.7c-.3 0-.7.1-1 .5-.4.4-1.3 1.3-1.3 3.1s1.3 3.5 1.5 3.7c.2.3 2.6 4 6.3 5.6.9.4 1.6.6 2.1.7.9.3 1.7.2 2.3.1.7-.1 2.1-.9 2.4-1.8.3-.9.3-1.6.2-1.8-.1-.2-.4-.3-.8-.5Z"/>
+    </svg>
+  </a>
+
+</body>
+</html>
