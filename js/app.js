@@ -6,8 +6,9 @@
 // Archivo: js/app.js
 // ============================================
 
-const WHATSAPP_AKENZO = "573118413109";
+const WHATSAPP_AKENZO = "573105751619";
 const CORREO_AKENZO = "somos.akenzo@gmail.com";
+const INSTAGRAM_AKENZO = "https://www.instagram.com/akenzo.tech";
 
 // ============================================
 // 1. ELEMENTOS DEL HTML
