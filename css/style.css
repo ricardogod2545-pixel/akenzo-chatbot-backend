@@ -2584,3 +2584,58 @@ button {
     font-size: 29px;
   }
 }
+
+.instagram-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  border: 1px solid #ff001e;
+  border-radius: 8px;
+  color: #ffffff;
+  background: #111111;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+
+.instagram-link:hover {
+  background: #ff001e;
+  transform: translateY(-2px);
+}
+.instagram-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: fit-content;
+  margin: 0 auto 12px;
+  padding: 12px 22px;
+  color: #fff;
+  background: #111;
+  border: 1px solid #ff001e;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  position: relative;
+  z-index: 20;
+  transition: 0.25s ease;
+}
+
+.instagram-link svg {
+  width: 21px;
+  height: 21px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+}
+
+.instagram-link svg circle:last-child {
+  fill: currentColor;
+  stroke: none;
+}
+
+.instagram-link:hover {
+  background: #ff001e;
+  transform: translateY(-2px);
+}
